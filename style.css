@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(59, 2, 120, 1) 50%,
+    rgba(75, 1, 154, 1) 100%
+  );
+  overflow: hidden;
+}
+
+.page {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(59, 2, 120, 1) 50%,
+    rgba(75, 1, 154, 1) 100%
+  );
+}
+.ano {
+  font-size: 5.5rem;
+  cursor: default;
+}
+.divControl {
+  text-align: center;
+}
+
+.div-white {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  animation: div-control ease 2s infinite;
+  animation-direction: alternate;
+  transform: translateY(141px);
+  z-index: 7;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.div-orange {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  animation: div-control 2s infinite ease;
+  animation-direction: alternate;
+  animation-delay: 190ms;
+  transform: translateY(-48px);
+  z-index: 6;
+  color: orange;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.div-red {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  animation: div-control 2s infinite ease;
+  animation-direction: alternate;
+  animation-delay: 350ms;
+  transform: translateY(-235px);
+  z-index: 5;
+  color: red;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.div-violet {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  animation: div-control 2s infinite ease;
+  animation-direction: alternate;
+  animation-delay: 460ms;
+  transform: translateY(-425px);
+  z-index: 4;
+  color: violet;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.div-blue {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  animation: div-control 2s infinite ease;
+  animation-direction: alternate;
+  animation-delay: 570ms;
+  transform: translateY(-615px);
+  z-index: 3;
+  color: blue;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.div-green {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  animation: div-control 2s infinite ease;
+  animation-direction: alternate;
+  animation-delay: 685ms;
+  transform: translateY(-805px);
+  z-index: 2;
+  color: green;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.div-yellow {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  animation: div-control 2s infinite ease;
+  animation-direction: alternate;
+  animation-delay: 790ms;
+  transform: translateY(-995px);
+  z-index: 1;
+  color: yellow;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black, 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.ano-green,
+.ano-yellow,
+.ano-white,
+.ano-orange,
+.ano-red,
+.ano-violet,
+.ano-blue {
+  font-family: 'Monoton', cursive;
+}
+
+.ano-white:hover {
+  color: yellow;
+  text-shadow: 10px 10px 10px orangered;
+}
+.ano-orange:hover {
+  color: green;
+  text-shadow: 5px 5px 5px green;
+}
+.ano-red:hover {
+  color: blue;
+  text-shadow: 5px 5px 5px blue;
+}
+.ano-violet:hover {
+  color: purple;
+  text-shadow: 5px 5px 5px purple;
+}
+.ano-blue:hover {
+  color: red;
+  text-shadow: 5px 5px 5px red;
+}
+.ano-green:hover {
+  color: orange;
+  text-shadow: 5px 5px 5px slateblue;
+}
+.ano-yellow:hover {
+  color: white;
+  text-shadow: 5px 5px 5px yellow;
+}
+
+@keyframes div-control {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+
+@keyframes div-orange {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+@keyframes div-red {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+@keyframes div-violet {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+@keyframes div-blue {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+@keyframes div-green {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+@keyframes div-yellow {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .page {
+    width: auto;
+    height: auto;
+  }
+  .wrapper {
+    display: grid;
+  }
+  .card {
+    margin-top: 20px;
+  }
+}
