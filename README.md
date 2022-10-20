@@ -1,5 +1,4 @@
 # simpleAnimation
 A simple animation with typography 80's
 
-
-(https://user-images.githubusercontent.com/54918415/196966659-01914348-95a0-4728-a668-6e921b3ebd7e.webm)
+[Animtated](https://user-images.githubusercontent.com/54918415/196966898-f134df8a-7f22-415f-be13-620721c50aba.webm)
